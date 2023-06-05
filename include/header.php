@@ -6,10 +6,10 @@
                 $run_user = mysqli_query($db, $get_user);
                 $row = mysqli_fetch_array($run_user);
                 $user_name = $row['name'];
-                echo "<a class='navbar-brand' href='../home.php?user_name=$user_name'>My Chat</a>";
+                echo "<a class='navbar-brand' href='home.php?user_name=$user_name'>My Chat</a>";
             ?>
         </a>
         <ul class="navbar-nav">
-            <li><a style="color:white; text-decoration:none; font-size:20px;" href="../account_setting.php">Setting</a></li>
+            <li><a style="color:white; text-decoration:none; font-size:20px;" href="account_setting.php">Setting</a></li>
         </ul>
 </nav><br>

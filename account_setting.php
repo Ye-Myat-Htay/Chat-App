@@ -48,13 +48,13 @@
                     </tr>
 
                     <tr>
-                        <td style="font-weight:bold;">Chane Username</td>
+                        <td style="font-weight:bold;">Change Username</td>
                         <td>
                             <input type="text" name="u_name" required class="form-control" value="<?= $user_name ?>">
                         </td>
                     </tr>
 
-                    <tr><td><a href="upload.php" class="btn btn-default" style="text-decoraton:none;font-size:15px"><i class="fa fa-user" aria-hidden="true"></i>Change Profile</a></td></tr>
+                    <tr><td></td><td><a href="upload.php" class="btn btn-default" style="text-decoraton:none;font-size:15px"><i class="fa fa-user" aria-hidden="true"></i>Change Profile</a></td></tr>
 
                     <tr>
                         <td style="font-weight:bold;">Change Email</td>
